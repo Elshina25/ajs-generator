@@ -3,7 +3,7 @@ export default class Team {
     this.team = new Set();
   }
 
-  * [Symbol.iterator]() {
+  *[Symbol.iterator]() {
     let index = 0;
     const entries = Object.entries(this.team);
     while (index <= entries.length) {
